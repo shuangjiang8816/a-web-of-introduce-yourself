@@ -1,0 +1,37 @@
+{
+  "unit_list":
+  {
+    "welcome_unit":
+    {
+      "word":
+        [{"english": "exchange","chinese":"交换，交流；交易；兑换" },
+         {"english":"lecture","chinese":"n.:讲座，讲课，教训 vl.讲座，讲课；vt.训斥"}]
+    },
+    "unit_1":
+    {
+      "word":
+      [ {"english": "teenage","chinese":"adj.十几岁的，青少年的（13-19岁）" },
+        {"english": "teenager","chinese":"n.青少年" },
+        {"english": "ballet","chinese":"n.芭蕾舞" },
+        {"english":"volunteer","chinese":"n.志愿者" },
+        {"english": "debate","chinese":"n. vt.&vi.辩论，争论；" },
+        {"english": "prefer","chinese":"vt.喜欢，较喜欢" },
+        {"english": "prefer...to...","chinese":"喜欢...多余..." },
+        {"english": "content","chinese":"n.内容；[pl.]目录；主题" },
+        {"english": "movement","chinese":"n.动作，运动，活动" },
+        {"english": "greenhouse", "chinese": "n. 温室，暖房"},
+        {"english": "clean up", "chinese": "打扫（或清除）干净"},
+        {"english": "suitable", "chinese": "adj.合适的，适用的"},
+        {"english": "suitable for", "chinese": "对...适合的"},
+        {"english": "actually", "chinese": "事实上，的确"},
+        {"english": "challenge","chinese": "n.挑战，艰巨任务 vt.怀疑，向...挑战"},
+        {"english": "title", "chinese": "n.（书，诗歌等的）名称"},
+        {"english": "topic", "chinese": "n.话题，标题"},
+        {"english": "freshman", "chinese": "n.（中学）九年级学生，（大学）一年级新生"},
+        {"english": "confusing", "chinese": "adj.难以理解的，不清楚的"},
+        {"english": "confuse", "chinese": "vt.使糊涂，使迷惑"},
+        {"english": "confused", "chinese": "adj.糊涂的，迷惑的"}]
+    }
+  },
+  "number": 6
+}

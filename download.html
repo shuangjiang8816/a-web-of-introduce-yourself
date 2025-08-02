@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body{
+      background:rgb(30,30,30);
+      color:white;
+      }
+    .box{
+      flex-wrap: wrap;
+      gap: 10px;
+      display:flex;
+      flex-direction:row;
+      }
+    h1{
+      text-align:center;
+      color:orange;
+      background:gray;
+      }
+    h3{
+      text-align:center;
+      }
+    .download{
+      flex: 0 0 calc(33.33% - 10px);
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius:10px;
+      background:rgb(60,60,60);
+      }
+    .text{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: 10px; /* 添加一些内边距 */
+      color: rgb(50,50,50);
+      margin: 0;
+      }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>下载</title>
+</head>
+<body>
+    <h1>欢迎来到下载页面!</h1>
+    <h3>你现在可以在下方下载想查看的编程作品了</h3>
+    <a href="index.html"><input type="button" value="返回主页面"/></a>
+    <div class="box">
+        <div class="download">
+          <p>作品1：赛博宠物</p><p>介绍：主要练习class类的用法</p>
+          <a href="编程作品/赛博宠物.py" download><button>下载文件</button></a>
+        </div>
+        <div class="download">
+          <p>作品2：get apple</p><p>介绍：以pygame为主的综合练习，你可以选择是否下载全部文件</p>
+          <a href="编程作品/get apple.py" download><button>仅下载源代码</button></a><a
+                href="编程作品/get apple.zip" download><button>下载完整文件</button></a>
+        </div>
+        <div class="download">
+          <p>作品3：计算器</p><p>介绍：早期我用if堆的屎山（资源丢失无法下载）</p>
+          <button>无法下载</button>
+        </div>
+        <div class="download">
+          <p>作品4：终端课本</p><p>介绍：练习json和数据结构时写的，附带一份不完整的实例文件</p>
+          <a href="编程作品/main.py" download><button>下载文件</button></a><a
+                href="编程作品/必修一英语.json" download><button>下载示例json文件</button></a>
+        </div>
+    </div>
+<p class="text">版权归bilibili用户：霜降awa 所有,禁止商用</p>
+</body>
+</html>

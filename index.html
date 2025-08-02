@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <title>个人简介</title>
+    <meta charset="UTF-8">
+    <style>
+        body{
+        background:rgb(30,30,30);
+        color:white;
+        }
+        a{
+        color:blue;
+        }
+        h1{
+        color:orange;
+        background:gray;
+        text-align:center;
+        border-radius:10px;
+        }
+        img{
+        border-radius:10px;
+        text-align:center;
+        width:25%;
+        }
+        .headshot{
+        background:rgb(50,50,50);
+        border-radius:10px;
+        }
+        .information{
+        background:rgb(50,50,50);
+        border-radius:10px;
+        }
+    </style>
+<body>
+    <h1>个人介绍</h1>
+    <div class="hobby">
+        <h2>爱好＆喜欢的角色:</h2>
+        <p>喜爱二次元文化</p>
+        <p>喜欢的虚拟歌手：洛天依</p>
+        <p>喜欢的二次元人物：藿藿</p>
+        <p>常玩的游戏：我的世界</p>
+        <a href="https://launch.minecraft.net/profile/frost4240"><input type="button" value="查看我的mc账号"/></a>
+        <a href="游戏.html"><input type="button" value="查看我的游戏截屏"/></a>
+    </div>
+    <div class="headshot">
+        <h2><i>我的常用头像：</i></h2>
+        <img src="headshot.jpg">
+    </div>
+    <div class="information">
+        <h2>一些个人信息：</h2>
+        <a href="https://space.bilibili.com/3493104143305702?spm_id_from=333.1007.0.0">我的b站主页-点击前往</a>
+    </div>
+    <div class="python_download">
+        <p>除此之外，我还是个编程爱好者，有一些简单的编程作品，如果你想看看的话，可以点击下面按钮前往下载页面</p>
+        <a href="download.html"><input type="button" value="下载页面"></a>
+    </div>
+<!-- python废案
+    <h1>Python脚本运行器</h1>
+    <button onclick="runScript()">运行Python脚本</button>
+    <div id="output">输出结果将显示在这里...</div>
+    <script>
+        async function runScript() {
+            const outputDiv = document.getElementById('output');
+            outputDiv.innerText = "正在运行脚本...";
+
+            try {
+                const response = await fetch('/run_script');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const result = await response.text();
+                outputDiv.innerText = result;
+            } catch (error) {
+                outputDiv.innerText = `错误: ${error.message}`;
+            }
+        }
+    </script>
+-->
+</body>
+</html>
