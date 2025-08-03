@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
     <title>个人简介</title>
-    <meta charset="UTF-8">
-    <style>
-        body{
-        background:rgb(30,30,30);
-        color:white;
-        }
-        a{
-        color:blue;
-        }
-        h1{
-        color:orange;
-        background:gray;
-        text-align:center;
-        border-radius:10px;
-        }
-        img{
-        border-radius:10px;
-        text-align:center;
-        width:25%;
-        }
-        .headshot{
-        background:rgb(50,50,50);
-        border-radius:10px;
-        }
-        .information{
-        background:rgb(50,50,50);
-        border-radius:10px;
-        }
-    </style>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+<link id="theme" rel="stylesheet" type="text/css" href="dark_theme.css">
 <body>
     <h1>个人介绍</h1>
+    <button id="theme-handoff" onclick="handoffTheme">切换主题</button>
     <div class="hobby">
         <h2>爱好＆喜欢的角色:</h2>
         <p>喜爱二次元文化</p>
@@ -53,27 +27,7 @@
         <p>除此之外，我还是个编程爱好者，有一些简单的编程作品，如果你想看看的话，可以点击下面按钮前往下载页面</p>
         <a href="download.html"><input type="button" value="下载页面"></a>
     </div>
-<!-- python废案
-    <h1>Python脚本运行器</h1>
-    <button onclick="runScript()">运行Python脚本</button>
-    <div id="output">输出结果将显示在这里...</div>
-    <script>
-        async function runScript() {
-            const outputDiv = document.getElementById('output');
-            outputDiv.innerText = "正在运行脚本...";
-
-            try {
-                const response = await fetch('/run_script');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const result = await response.text();
-                outputDiv.innerText = result;
-            } catch (error) {
-                outputDiv.innerText = `错误: ${error.message}`;
-            }
-        }
-    </script>
--->
+    <!--引入JavaScript-->
+    <script src="theme.js"></script>
 </body>
 </html>
