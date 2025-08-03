@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--标头，传递基本信息和引用js-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <title>游戏信息</title>
+</head>
+<link id="theme" rel="stylesheet" type="text/css" href="dark_theme.css"><!--插入css文件-->
+<style>
+    img{
+      border-radius:10px;
+      width:30%;
+      }
+</style>
+<body>
+    <h1 id="h1_game">游戏信息</h1>
+    <button id="theme-handoff" onclick="handoffTheme">切换主题</button>
+    <a href="index.html"><input type="button" value="返回主页面"/></a>
+    <h2>我的游戏截屏：</h2>
+    <div class="screenshot">
+        <div class="star_rail">
+            <h2>崩坏：星穹铁道</h2>
+            <img src="游戏截屏/崩坏：星穹铁道/1.jpg"><img src="游戏截屏/崩坏：星穹铁道/2.jpg">
+        </div>
+        <div class="minecraft">
+            <h2>我的世界</h2>
+            <img src="游戏截屏/我的世界/1.png"><img src="游戏截屏/我的世界/2.png">
+            <img src="游戏截屏/我的世界/3.jpg"><img src="游戏截屏/我的世界/4.jpg">
+            <img src="游戏截屏/我的世界/5.jpg">
+        </div>
+        <div class="infinite lagrange">
+            <h2>无尽的拉格朗日</h2>
+            <img src="游戏截屏/无尽的拉格朗日/1.jpg"><img src="游戏截屏/无尽的拉格朗日/2.jpg">
+            <img src="游戏截屏/无尽的拉格朗日/3.jpg">
+        </div>
+    </div>
+    <!--引入JavaScript-->
+    <script src="theme.js"></script>
+</body>
+</html>
