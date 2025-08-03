@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    body{
-      background:rgb(30,30,30);
-      color:white;
-      }
-    .box{
-      flex-wrap: wrap;
-      gap: 10px;
-      display:flex;
-      flex-direction:row;
-      }
     h1{
       text-align:center;
       color:orange;
@@ -19,29 +9,16 @@
     h3{
       text-align:center;
       }
-    .download{
-      flex: 0 0 calc(33.33% - 10px);
-      padding: 20px;
-      box-sizing: border-box;
-      border-radius:10px;
-      background:rgb(60,60,60);
-      }
-    .text{
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      padding: 10px; /* 添加一些内边距 */
-      color: rgb(50,50,50);
-      margin: 0;
-      }
 </style>
 <head>
     <meta charset="UTF-8">
     <title>下载</title>
+    <link id="theme" rel="stylesheet" type="text/css" href="dark_theme.css">
 </head>
 <body>
     <h1>欢迎来到下载页面!</h1>
     <h3>你现在可以在下方下载想查看的编程作品了</h3>
+    <button id="theme-handoff" onclick="handoffTheme">切换主题</button>
     <a href="index.html"><input type="button" value="返回主页面"/></a>
     <div class="box">
         <div class="download">
@@ -63,6 +40,9 @@
                 href="编程作品/必修一英语.json" download><button>下载示例json文件</button></a>
         </div>
     </div>
-<p class="text">版权归bilibili用户：霜降awa 所有,禁止商用</p>
+    <p class="text">版权归bilibili用户：霜降awa 所有,禁止商用</p>
+    <!--引入JavaScript-->
+    <script src="theme.js"></script>
 </body>
+
 </html>
