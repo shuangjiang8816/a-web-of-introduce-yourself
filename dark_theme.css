@@ -1,0 +1,51 @@
+body{
+    background:rgb(30,30,30);
+    color:white;
+}
+h1{
+    color:orange;
+    background:gray;
+    text-align:center;
+    border-radius:10px;
+    }
+img{
+    border-radius:10px;
+    text-align:center;
+    width:25%;
+    }
+.headshot{
+    background:rgb(50,50,50);
+    border-radius:10px;
+    }
+.information{
+    background:rgb(50,50,50);
+    border-radius:10px;
+    }
+/*game_information.html中的样式*/
+.screenshot{
+      text-align:center;
+      border-radius:10px;
+      background:rgb(50,50,50);
+      }
+/*download.html中的样式*/
+.box{
+      flex-wrap: wrap;
+      gap: 10px;
+      display:flex;
+      flex-direction:row;
+      }
+.download{
+      flex: 0 0 calc(33.33% - 10px);
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius:10px;
+      background:rgb(60,60,60);
+      }
+.text{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: 10px; /* 添加一些内边距 */
+      color: rgb(50,50,50);
+      margin: 0;
+      }
